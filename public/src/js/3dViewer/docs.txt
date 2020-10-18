@@ -1,0 +1,16 @@
+    -- 3dViewer API --
+    
+    init(callback) - calls callback function with the loaded models
+    
+    loadModel(model) -> loaded model with gltf attribute
+
+    display(model) -> Adds model to scene and displays it. Also adds controls for scroll and drag to rotate
+  
+    -- Model structure --
+    fox: { 
+        url: '../../src/models/FoxModel/Fox.gltf', 
+        scale: { 
+            x: 0.2, y: 0.2, z: 0.2 
+        },
+        name: 'Fox'
+    },
